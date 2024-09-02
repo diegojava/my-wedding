@@ -1,0 +1,168 @@
+/*** 
+
+====================================================================
+Section Title
+====================================================================
+
+***/
+
+.sec-title {
+    position: relative;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(sm){
+        margin-bottom: 40px;
+    }
+    .sub-title {
+        position: relative;
+        display: inline-block;
+        color: var(--sec-title-subtitle-color);
+        font-size: var(--sec-title-subtitle-font-size);
+        font-weight: var(--sec-title-subtitle-font-weight);
+        line-height: var(--sec-title-subtitle-line-height);
+        font-family: var(--sec-title-subtitle-font-family);
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        margin-bottom: 0px;
+        @include media-breakpoint-down(lg){
+            font-size: 18px;
+        }
+        @include media-breakpoint-down(sm){
+            font-size: 16px;
+        }
+    }
+    h2 {
+        position: relative;
+        display: block;
+        color: var(--sec-title-color);
+        font-size: var(--sec-title-font-size);
+        font-weight: var(--sec-title-font-weight);
+        line-height: var(--sec-title-line-height);
+        font-family: var(--sec-title-font-family);
+        margin-bottom: 0;
+        text-transform: capitalize;
+        z-index: 2;
+        @include media-breakpoint-down(lg){
+            font-size: 54px;
+        }
+        @include media-breakpoint-down(sm){
+            font-size: 42px;
+            line-height: 1.2em;
+            br{display: none;}
+        }
+    }
+    .text {
+        margin-top: 20px;
+        @include media-breakpoint-down(sm){
+            br{display: none;}
+        }
+    }
+    &.style-two {
+        .sub-title {
+            font-family: var(--text-font);
+            font-weight: 500;
+            font-size: 16px;
+            color: var(--theme-color7);
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 60px;
+            @include media-breakpoint-down(lg){
+                font-size: 48px;
+                line-height: 1.2em;
+                letter-spacing: 0;
+                br{display: none;}
+            }
+            @include media-breakpoint-down(md){
+                font-size: 38px;
+            }
+        }
+        .text{
+            @include media-breakpoint-down(md){
+                br{display: none;}
+            }
+        }
+    }
+    &.style-three {
+        .icon{
+            display: inline-block;
+            animation: pulse 2s infinite linear;
+            margin-bottom: 10px;
+        }
+        .sub-title {
+            position: relative;
+            display: block;
+            font-family: var(--text-font);
+            font-weight: 800;
+            font-size: 16px;
+            color: var(--theme-color5);
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            margin-bottom: 12px;
+        }
+        h2 {
+            font-weight: 400;
+            text-transform: capitalize;
+            @include media-breakpoint-down(md){
+                font-size: 42px;
+                line-height: 1.2em;
+                br{display: none;}
+            }
+        }
+    }
+
+
+    &.style-four {
+        .sub-title {
+            position: relative;
+            font-family: var(--text-font);
+            font-weight: 500;
+            font-size: 16px;
+            color: var(--theme-color6);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 60px;
+            font-family: var(--title-font);
+            font-weight: 400;
+            @include media-breakpoint-down(md){
+                font-size: 42px;
+                line-height: 1.2em;
+                br{display: none;}
+            }
+        }
+    }
+
+
+    &.style-five {
+        .sub-title {
+            position: relative;
+            font-family: var(--text-font);
+            font-weight: 500;
+            font-size: 16px;
+            color: var(--theme-color8);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 60px;
+            font-family: var(--title-font);
+            font-weight: 400;
+            @include media-breakpoint-down(md){
+                font-size: 42px;
+                line-height: 1.2em;
+                br{display: none;}
+            }
+        }
+    }
+    
+    &.light{
+        .sub-title,
+        .text,
+        h2,
+        h1{
+            color: var(--theme-color-light);
+        }
+    }
+}

@@ -1,0 +1,110 @@
+/*** 
+
+====================================================================
+	Subscribe Section
+====================================================================
+
+***/
+
+.subscribe-section {
+    position: relative;
+    padding: 120px 0 70px;
+    background-color: #f7f7f7;
+    .icon-leaves-6.style-two {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        transform: scale(-1);
+        @include media-breakpoint-down(xl){
+            display: none;
+        }
+    }
+    .icon-leaves-6 {
+        position: absolute;
+        right: 45px;
+        bottom: 85px;
+        @include media-breakpoint-down(xl){
+            display: none;
+        }
+    }
+    .icon-flower-23 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .gallery-carousel-outer{
+        position: relative;
+        padding-top: 50px;
+        margin-bottom: -85px;
+    }
+    
+    .title-column{
+        position: relative;
+        margin-bottom: 50px;
+        .inner-column {
+            @include media-breakpoint-down(lg){
+                text-align: center;
+            }
+        }
+        .title{
+            color: var(--theme-color-dark);
+            font-size: 60px;
+            line-height: 1em;
+            font-family: var(--title-font);
+            font-weight: 600;
+            margin-bottom: 10px;
+            @include media-breakpoint-down(sm){
+                font-size: 45px;
+            }
+        }
+    }
+
+    .form-column{
+        position: relative;
+        margin-bottom: 40px;
+    }
+}
+
+.subscribe-form-one{
+    padding-top: 20px;
+    .form-group{
+        max-width: 740px;
+        width: 100%;
+        position: relative;
+        padding-right: 195px;
+        @include media-breakpoint-down(sm){
+            padding-right: 0;
+        }
+        select,
+        textarea,
+        input:not([type=submit]){
+            position: relative;
+            display: block;
+            background-color: var(--theme-color-light);
+            border: 1px solid var(--theme-color-dark);
+            height: 64px;
+            width: 100%;
+            padding: 22px 40px 18px;
+            line-height: 22px;
+            border-radius: 50px;
+            transition: all 300ms ease;
+        }
+        .theme-btn{
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 34px;
+            border-radius: 50px;
+            @include media-breakpoint-down(sm){
+                position: relative;
+                display: block;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,901 @@
+
+/*** 
+
+====================================================================
+  Anim Icons
+====================================================================
+
+***/
+
+.anim-icons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.anim-icons.full-width {
+    max-width: 100%;
+}
+
+.anim-icons .icon {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+.couple-frame {
+    width: 352px;
+    height: 406px;
+    background-image: url(../images/icons/couple-frame.png);
+    pointer-events: none;
+}
+
+.team-frame {
+    width: 193px;
+    height: 221px;
+    background-image: url(../images/icons/team-frame.png);
+}
+
+.team3-frame {
+    width: 251px;
+    height: 235px;
+    background-image: url(../images/icons/team3-frame.png);
+}
+
+.testi-frame {
+    width: 497px;
+    height: 469px;
+    background-image: url(../images/icons/testi-frame.png);
+}
+
+.banner-frame {
+    width: 982px;
+    height: 795px;
+    background-image: url(../images/banner/banner4-frame.png);
+}
+
+.testi3-frame {
+    width: 872px;
+    height: 707px;
+    background-image: url(../images/icons/testi3-frame.png);
+}
+
+.story-frame {
+    width: 422px;
+    height: 420px;
+    background-image: url(../images/icons/story-frame.png);
+}
+
+.icon-divider {
+    background-image: url(../images/icons/divider.png);
+    height: 22px;
+    width: 172px;
+    display: inline-block;
+}
+
+.icon-divider-5{
+    background-image: url(../images/icons/divider-5.png);
+    height: 22px;
+    width: 172px;
+    display: inline-block;
+}
+
+.icon-heart {
+    background-image: url(../images/banner/icon-heart.png);
+    width: 124px;
+    height: 112px;
+}
+
+.icon-heart-2 {
+    background-image: url(../images/banner/icon-heart-2.png);
+    width: 209px;
+    height: 123px;
+}
+
+.icon-heart-4 {
+    background-image: url(../images/icons/icon-heart-4.png);
+    width: 31px;
+    height: 28px;
+}
+
+.icon-heart-5 {
+    background-image: url(../images/icons/icon-heart-5.png);
+    width: 134px;
+    height: 14px;
+}
+
+.icon-green-heart{
+    background-image: url(../images/icons/icon-heart-3.png);
+    width: 91px;
+    height: 53px;
+}
+
+.icon-flower {
+    width: 633px;
+    height: 508px;
+    background-image: url(../images/icons/icon-flower-2.png);
+}
+
+.icon-flowers-1 {
+    width: 669px;
+    height: 641px;
+    background-image: url(../images/icons/flowers-1.png);
+}
+
+.icon-flowers-2 {
+    width: 422px;
+    height: 441px;
+    background-image: url(../images/icons/flowers-2.png);
+    pointer-events: none;
+}
+
+.icon-flowers-3 {
+    width: 344px;
+    height: 907px;
+    background-image: url(../images/icons/flowers-3.png);
+}
+
+.icon-flowers-5 {
+    width: 254px;
+    height: 264px;
+    background-image: url(../images/icons/flowers-5.png);
+}
+
+.icon-flowers-6 {
+    width: 255px;
+    height: 754px;
+    background-image: url(../images/icons/flowers-6.png);
+}
+
+.icon-flowers-7 {
+    width: 250px;
+    height: 753px;
+    background-image: url(../images/icons/flowers-7.png);
+}
+
+.icon-flowers-8 {
+    width: 179px;
+    height: 459px;
+    background-image: url(../images/icons/flowers-8.png);
+}
+
+.icon-flowers-9 {
+    width: 1486px;
+    height: 252px;
+    background-image: url(../images/icons/icon-flowers-2.png);
+}
+
+.icon-flowers-10 {
+    width: 120px;
+    height: 806px;
+    background-image: url(../images/icons/flowers-10.png);
+}
+
+.icon-flowers-11 {
+    width: 163px;
+    height: 855px;
+    background-image: url(../images/icons/flowers-11.png);
+}
+
+.icon-flowers-12 {
+    width: 406px;
+    height: 765px;
+    background-image: url(../images/icons/flowers-12.png);
+}
+
+.icon-flowers-13 {
+    width: 479px;
+    height: 651px;
+    background-image: url(../images/icons/flowers-13.png);
+}
+
+.icon-flowers-14 {
+    width: 524px;
+    height: 715px;
+    background-image: url(../images/icons/flowers-14.png);
+}
+
+.icon-flowers-15 {
+    width: 375px;
+    height: 404px;
+    background-image: url(../images/icons/flowers-15.png);
+}
+
+.icon-flowers-16 {
+    width: 564px;
+    height: 463px;
+    background-image: url(../images/icons/flowers-16.png);
+}
+
+.icon-flowers-17 {
+    width: 237px;
+    height: 203px;
+    background-image: url(../images/icons/flowers-17.png);
+}
+
+.icon-flowers-18 {
+    width: 382px;
+    height: 481px;
+    background-image: url(../images/icons/flowers-18.png);
+}
+
+.icon-flowers-19 {
+    width: 459px;
+    height: 737px;
+    background-image: url(../images/icons/flowers-19.png);
+}
+
+.icon-flowers-20 {
+    width: 351px;
+    height: 622px;
+    background-image: url(../images/icons/flowers-20.png);
+}
+
+.icon-flowers-21 {
+    width: 432px;
+    height: 604px;
+    background-image: url(../images/icons/cta-flowers.png);
+}
+
+.icon-border {
+    width: 352px;
+    height: 406px;
+    background-image: url(../images/icons/couple-border.png);
+    pointer-events: none;
+}
+
+.icon-shape-1 {
+    width: 332px;
+    height: 695px;
+    background-image: url(../images/icons/icon-shape-1.png);
+}
+
+.icon-shape {
+    width: 283px;
+    height: 279px;
+    background-image: url(../images/icons/services-shape.png);
+}
+
+.icon-leave {
+    width: 153px;
+    height: 150px;
+    background-image: url(../images/icons/icon-leave.png);
+}
+
+.icon-leave-2 {
+    width: 275px;
+    height: 514px;
+    background-image: url(../images/icons/icon-leave-2.png);
+}
+
+.icon-leave-3 {
+    width: 264px;
+    height: 512px;
+    background-image: url(../images/icons/icon-leave-3.png);
+}
+
+.icon-leave-4 {
+    width: 119px;
+    height: 225px;
+    background-image: url(../images/icons/icon-leave-4.png);
+}
+
+.icon-leave-5{
+    width: 69px;
+    height: 118px; 
+    background-image: url(../images/icons/icon-leave-5.png);
+}
+
+.icon-leaves-5 {
+    width: 226px;
+    height: 254px;
+    background-image: url(../images/icons/icon-leaves-5.png);
+}
+
+.icon-leaves-6 {
+    width: 226px;
+    height: 254px;
+    background-image: url(../images/icons/icon-leaves-6.png);
+}
+
+.icon-leaves-7 {
+    width: 382px;
+    height: 711px;
+    background-image: url(../images/icons/icon-leaves-7.png);
+}
+
+.icon-leaves-8 {
+    width: 261px;
+    height: 227px;
+    background-image: url(../images/icons/icon-leaves-8.png);
+}
+
+.icon-leaves-9 {
+    width: 179px;
+    height: 126px;
+    background-image: url(../images/icons/icon-leaves-9.png);
+}
+
+.icon-leaves-10 {
+    width: 153px;
+    height: 136px;
+    background-image: url(../images/icons/icon-leaves-10.png);
+}
+
+.icon-leaves-11 {
+    width: 130px;
+    height: 172px;
+    background-image: url(../images/icons/icon-leaves-11.png);
+}
+
+.icon-leaves-12 {
+    width: 179px;
+    height: 497px;
+    background-image: url(../images/icons/icon-leaves-12.png);
+}
+
+.icon-leaves-13 {
+    width: 700px;
+    height: 513px;
+    background-image: url(../images/icons/icon-leaves-13.png);
+}
+
+.icon-leaves-14 {
+    width: 408px;
+    height: 366px;
+    background-image: url(../images/icons/icon-leaves-14.png);
+}
+
+.icon-leaves-15 {
+    width: 474px;
+    height: 488px;
+    background-image: url(../images/icons/icon-leaves-15.png);
+}
+
+.icon-leaves-16 {
+    width: 654px;
+    height: 271px;
+    background-image: url(../images/icons/icon-leaves-16.png);
+}
+
+.icon-leaves-17 {
+    width: 292px;
+    height: 262px;
+    background-image: url(../images/icons/icon-leaves-17.png);
+}
+
+.icon-leaves-18 {
+    width: 340px;
+    height: 288px;
+    background-image: url(../images/icons/icon-leaves-18.png);
+}
+
+.icon-leaves-19 {
+    width: 366px;
+    height: 329px;
+    background-image: url(../images/icons/icon-leaves-19.png);
+}
+
+.icon-leaves-20 {
+    width: 426px;
+    height: 351px;
+    background-image: url(../images/icons/icon-leaves-20.png);
+}
+
+.icon-leaves-21 {
+    width: 303px;
+    height: 591px;
+    background-image: url(../images/icons/icon-leaves-21.png);
+}
+
+.icon-leaves-22 {
+    width: 270px;
+    height: 338px;
+    background-image: url(../images/icons/icon-leaves-22.png);
+}
+
+.icon-leaves-23 {
+    width: 416px;
+    height: 1116px;
+    background-image: url(../images/icons/icon-leaves-23.png);
+}
+
+.icon-leaves-24 {
+    width: 656px;
+    height: 923px;
+    background-image: url(../images/icons/icon-leaves-24.png);
+}
+
+.icon-leaves-25 {
+    width: 270px;
+    height: 339px;
+    background-image: url(../images/icons/icon-leaves-25.png);
+}
+
+.icon-leaves-26 {
+    width: 285px;
+    height: 400px;
+    background-image: url(../images/icons/icon-leaves-26.png);
+}
+
+.icon-leaves-27 {
+    width: 86px;
+    height: 123px;
+    background-image: url(../images/icons/icon-leaves-27.png);
+}
+
+.icon-leaves-28 {
+    width: 86px;
+    height: 123px;
+    background-image: url(../images/icons/icon-leaves-28.png);
+}
+
+.icon-leaves-29 {
+    width: 242px;
+    height: 237px;
+    background-image: url(../images/icons/icon-leaves-29.png);
+}
+
+.icon-leaves-30 {
+    width: 153px;
+    height: 145px;
+    background-image: url(../images/icons/icon-leaves-30.png);
+}
+
+.icon-leaves-31 {
+    width: 148px;
+    height: 140px;
+    background-image: url(../images/icons/icon-leaves-31.png);
+}
+
+.icon-leaves-32 {
+    width: 175px;
+    height: 137px;
+    background-image: url(../images/icons/icon-leaves-32.png);
+}
+
+.icon-leaves-33 {
+    width: 150px;
+    height: 270px;
+    background-image: url(../images/icons/icon-leaves-33.png);
+}
+
+.icon-leaves-34 {
+    width: 303px;
+    height: 261px;
+    background-image: url(../images/icons/icon-leaves-34.png);
+}
+
+.icon-leaves-35 {
+    width: 153px;
+    height: 145px;
+    background-image: url(../images/icons/icon-leaves-35.png);
+}
+
+.icon-leaves-36 {
+    width: 180px;
+    height: 55px;
+    background-image: url(../images/icons/icon-leaves-36.png);
+}
+
+.icon-leaves-37 {
+    width: 80px;
+    height: 104px;
+    background-image: url(../images/icons/icon-leaves-37.png);
+}
+
+.icon-flower-3 {
+    width: 141px;
+    height: 217px;
+    background-image: url(../images/icons/icon-flower-3.png);
+}
+
+.icon-flower-4 {
+    width: 134px;
+    height: 188px;
+    background-image: url(../images/icons/icon-flower-4.png);
+}
+
+.icon-flower-6 {
+    width: 80px;
+    height: 105px;
+    background-image: url(../images/icons/icon-flower-6.png);
+}
+
+.icon-flower-7 {
+    width: 106px;
+    height: 76px;
+    background-image: url(../images/icons/icon-flower-7.png);
+}
+
+.icon-flower-8 {
+    width: 111px;
+    height: 169px;
+    background-image: url(../images/icons/icon-flower-8.png);
+}
+
+.icon-flower-9 {
+    width: 100px;
+    height: 140px;
+    background-image: url(../images/icons/icon-flower-9.png);
+}
+
+.icon-flower-10 {
+    width: 87px;
+    height: 134px;
+    background-image: url(../images/icons/icon-flower-10.png);
+}
+
+.icon-flower-11 {
+    width: 83px;
+    height: 116px;
+    background-image: url(../images/icons/icon-flower-11.png);
+}
+
+.icon-flower-12 {
+    width: 200px;
+    height: 316px;
+    background-image: url(../images/icons/icon-flower-12.png);
+}
+
+.icon-flower-13 {
+    width: 79px;
+    height: 124px;
+    background-image: url(../images/icons/icon-flower-13.png);
+}
+
+.icon-flower-14 {
+    width: 129px;
+    height: 201px;
+    background-image: url(../images/icons/icon-flower-14.png);
+}
+
+.icon-flower-15 {
+    width: 406px;
+    height: 765px;
+    background-image: url(../images/icons/icon-flower-15.png);
+}
+
+.icon-flower-16 {
+    width: 459px;
+    height: 645px;
+    background-image: url(../images/icons/icon-flower-16.png);
+}
+
+.icon-flower-17 {
+    width: 673px;
+    height: 786px;
+    background-image: url(../images/icons/icon-flower-17.png);
+}
+
+.icon-flower-18 {
+    width: 460px;
+    height: 621px;
+    background-image: url(../images/icons/icon-flower-18.png);
+}
+
+.icon-flower-19 {
+    width: 200px;
+    height: 594px;
+    background-image: url(../images/icons/icon-flower-19.png);
+}
+
+.icon-flower-20 {
+    width: 407px;
+    height: 549px;
+    background-image: url(../images/icons/icon-flower-20.png);
+}
+
+.icon-flower-21 {
+    width: 129px;
+    height: 201px;
+    background-image: url(../images/icons/icon-flower-21.png);
+}
+
+.icon-flower-22 {
+    width: 382px;
+    height: 488px;
+    background-image: url(../images/icons/icon-flower-22.png);
+}
+
+.icon-flower-23 {
+    width: 762px;
+    height: 494px;
+    background-image: url(../images/icons/icon-flower-23.png);
+}
+
+.icon-flower-24 {
+    width: 579px;
+    height: 624px;
+    background-image: url(../images/icons/icon-flower-24.png);
+}
+
+.icon-flower-25 {
+    width: 896px;
+    height: 583px;
+    background-image: url(../images/icons/icon-flower-25.png);
+}
+
+.icon-flower-26 {
+    width: 326px;
+    height: 97px;
+    background-image: url(../images/icons/icon-flower-26.png);
+}
+
+.icon-flower-27 {
+    width: 146px;
+    height: 134px;
+    background-image: url(../images/icons/icon-flower-27.png);
+}
+
+.icon-flower-28 {
+    width: 495px;
+    height: 474px;
+    background-image: url(../images/icons/icon-flower-28.png);
+}
+
+.icon-flower-29 {
+    width: 228px;
+    height: 427px;
+    background-image: url(../images/icons/icon-flower-29.png);
+}
+
+.icon-flower-30 {
+    width: 79px;
+    height: 105px;
+    background-image: url(../images/icons/icon-flower-30.png);
+}
+
+
+.icon-bubbles {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/icons/icon-bubbles.png);
+}
+
+.icon-bubbles-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/icons/icon-bubbles-2.png);
+}
+
+.icon-line {
+    width: 88px;
+    height: 323px;
+    background-image: url(../images/icons/icon-line.png);
+}
+
+.icon-quote{
+    width: 61px;
+    height: 45px;
+    background-image: url(../images/icons/icon-quote.png);
+}
+
+
+
+
+
+.bounce-y{
+    animation: bounce-y 10s infinite linear;
+}
+
+.bounce-x{
+    animation: bounce-x 10s infinite linear;
+}
+
+.zoom-one{
+    animation: zoom-one 10s infinite linear;
+}
+
+.zoom-two{
+    animation: zoom-two 5s infinite linear;
+}
+
+.rotate-x{
+    animation: rotate-x 10s infinite linear;
+}
+
+
+
+@keyframes float{
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce-y {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce-x {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoom-one {
+    0% {
+        transform: scale(.95);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(.95);
+    }
+}
+
+@keyframes zoom-two {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate-x {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+@keyframes anim-shadow {
+    0% {
+        text-shadow: 0 0 0px rgba(0,0,0, .01);
+    }
+    50% {
+        text-shadow: 0px -30px 30px rgba(0,0,0,.10);
+    }
+    100% {
+        text-shadow: 0 0 0px rgba(0,0,0, .01);
+    }
+}
+
+
+.overlay-anim {
+    position: relative;
+    &:after {
+        background: rgba(255, 255, 255, 0.3);
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 0;
+        opacity: 1;
+        z-index: 2;
+        pointer-events: none;
+    }
+    &:hover{
+        &:after {
+            height: 100%;
+            opacity: 0;
+            transition: all 400ms linear;
+        }
+    }   
+}
+
+
+
+.overlay-anim-two {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+    &:hover {
+        a:after {
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: all 400ms linear;
+        }
+    }
+    &:after {
+        background: rgba(255, 255, 255, .3);
+        bottom: 0;
+        content: "";
+        left: 50%;
+        position: absolute;
+        right: 51%;
+        top: 0;
+        opacity: 1;
+        pointer-events: none;
+        transition: all 400ms linear;
+    }
+}
+
+// Animated Moving Circles
+
+.circle {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    left: -10px;
+    top: -10px;
+    border-radius: 100%;
+    z-index: 1;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    @supports (mix-blend-mode: difference) {
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+    @include for-md{
+        display: none !important;
+    }
+}
+
+.circle-follow {
+    position: fixed;
+    mix-blend-mode: difference;
+    width: 30px;
+    height: 30px;
+    left: -21px;
+    top: -21px;
+    border-radius: 100%;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    @supports (mix-blend-mode: difference) {
+        border: 1px solid #fff;
+        mix-blend-mode: difference;
+    }
+    @include for-md {
+        display: none !important;
+    }
+}

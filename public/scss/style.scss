@@ -1,0 +1,98 @@
+/* Wendola | Wedding Agency HTML Template
+
+Template Name: Wendola
+Version: 1.0.0
+License: copyright commercial
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global Settings
+4. Main Header / TwO / Three / Four / Five
+5. Sticky Header 
+6. Mobile Menu
+7. Section Title
+8. Banner Section / TwO / Three / Four / Five
+9. Countdown section / TwO / Three / Four
+10. Couple Section / TwO / Three 
+11. Event Section / Two  / Three
+12. Fun Fact Section
+13. Gallery Section / One to Nine
+14. Services Section / Two / Three / Four
+15, Contact Section / Two / Three
+16. Subscribe Section 
+17. Marquee
+18. Pricing
+19. Call To Action
+20. Testimonial Section / Two / Three
+21. Team Section / Two / Three / Four
+22. News Section / Two / Three / Four / Five
+23. Video Section
+24. Clients Section / Two / Three / Four
+25. Story Section / Two / Three
+26. Main Footer / Two / Three / Four / Five
+**********************************************/
+
+@import "scss-bootstrap/functions";
+@import "scss-bootstrap/variables";
+@import "scss-bootstrap/mixins";
+@import "common/root.scss";
+@import "common/mixing.scss";
+@import "common/loader.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&family=Great+Vibes&display=swap');
+
+@import url('animate.css');
+@import url('owl.css');
+@import url('jquery.fancybox.min.css');
+@import url('linear.css');
+@import url('fontawesome.css');
+@import url('flaticon.css');
+@import url('swiper.min.css');
+@import url('tm-bs-mp.css');
+@import url('tm-utility-classes.css');
+
+// import SCSS components one by one
+@import "reset.scss";
+@import "button.scss";
+@import "accordion.scss";
+@import "animate-icon.scss";
+@import "search-popup.scss";
+@import "header.scss";
+@import "mega-menu.scss";
+@import "mobile-menu.scss";
+@import "section-title.scss";
+@import "banner.scss";
+@import "countdown.scss";
+@import "couple.scss";
+@import "event.scss";
+@import "funfact.scss";
+@import "gallery.scss";
+@import "services.scss";
+@import "contact.scss";
+@import "subscribe.scss";
+@import "marquee.scss";
+@import "pricing.scss";
+@import "call-to-action.scss";
+@import "testimonials.scss";
+@import "team.scss";
+@import "news.scss";
+@import "funfact.scss";
+// @import "faqs.scss";
+@import "pricing.scss";
+@import "video.scss";
+@import "clients.scss";
+@import "story.scss";
+@import "footer.scss";
+
+@import "shop/loader.scss";
+
+//inner
+@import "inner/page-title.scss";
+@import "inner/404.scss";
+@import "inner/contact-page.scss";
+@import "inner/service-details.scss";
+@import "inner/project-details.scss";
+@import "inner/news-details.scss";
+@import "inner/news-sidebar.scss";
+@import "inner/news-comment.scss";
+@import "inner/team-details.scss";

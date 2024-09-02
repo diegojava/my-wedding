@@ -1,0 +1,683 @@
+/*** 
+
+====================================================================
+	Team Section
+====================================================================
+
+***/
+
+.team-section {
+    position: relative;
+    background-color: var(--bg-theme-color4);
+    padding: 120px 0 120px;
+    @include media-breakpoint-down(lg){
+        padding: 120px 0 70px;
+    }
+    .icon-flower {
+        position: absolute;
+        top: 0;
+        right: -200px;
+        background-position: right;
+    }
+    .icon-leave-2 {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        @include for-xxl{
+            display: none;
+        }
+    }
+
+    .icon-leave-3 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @include for-xxl{
+            display: none;
+        }
+    }
+    .sec-title {
+        .icon-divider {
+            position: relative;
+            margin: 0 auto;
+            display: inherit;
+            margin-bottom: 35px;
+        }
+    }
+    .outer-box {
+        position: relative;
+        padding-top: 30px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            height: 100%;
+            width: 1px;
+            background-color: #444444;
+            display: inline-block;
+            @include media-breakpoint-down(lg){
+                display: none;
+            }
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            display: inline-block;
+            width: 30px;
+            height: 114px;
+            background-image: url(../images/icons/divider-2.png);
+            background-repeat: no-repeat;
+            transform: translate(-50%, -50%);
+            @include media-breakpoint-down(lg){
+                display: none;
+            }
+        }
+    }
+    .left-column {
+        .inner-column {
+            margin-right: 50px;
+            @include media-breakpoint-down(xl){
+                margin-right: 10px;
+            }
+        }
+    }
+    .right-column {
+        .inner-column {
+            padding-left: 60px;
+            @include media-breakpoint-down(xl){
+                padding-left: 15px;
+            }
+            @include media-breakpoint-down(lg){
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.team-block {
+    margin-bottom: 60px;
+    .inner-box {
+        position: relative;
+        text-align: center;
+        &:hover{
+            .image-box{
+                .icon-flowers-5{
+                    animation: zoom-two 5s infinite linear;
+                }
+                .image{
+                    img{
+                        opacity: .8;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+        .image-box {
+            position: relative;
+            width: 193px;
+            margin: 0 auto 25px;
+            .image {
+                position: relative;
+                overflow: hidden;
+                img{
+                    transition: all 300ms ease;
+                }
+            }
+            .team-frame {
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                right: -2px;
+                bottom: -2px;
+                height: auto;
+                width: auto;
+            }
+            .icon-border {
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                max-width: 210px;
+            }
+            .icon-flowers-5 {
+                position: absolute;
+                top: -30px;
+                left: -35px;
+            }
+        }
+        .content-box {
+            position: relative;
+            .name {
+                color: #282828;
+				font-family: var(--script-font);
+				font-weight: 400;
+                font-size: 28px;
+                margin-bottom: 0;
+            }
+            .designation {
+                color: var(--theme-color1);
+                font-family: var(--text-font);
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+/*** 
+
+====================================================================
+	Team Section Two
+====================================================================
+
+***/
+
+.team-section-two {
+    position: relative;
+    padding: 120px 0;
+    .sec-title {
+        margin-bottom: 20px;
+    }
+    .icon-flowers-7 {
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        @include media-breakpoint-down(xxl){
+            opacity: .1;
+        }
+    }
+
+    .owl-carousel {
+        .owl-item{
+            &:nth-child(odd){
+                .team-block-two{
+                    margin-top: 110px;
+                    @include media-breakpoint-down(xl){
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .owl-carousel{
+        padding-bottom: 10px;
+        .owl-nav{
+            display: none;
+        }
+        .owl-dots {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .owl-dot {
+                height: 3px;
+                width: 60px;
+                background-color: #dfdfdf;
+                margin-right: 18px;
+                transition: all 300ms ease;
+                @include media-breakpoint-down(sm){
+                    width: 30px;
+                }
+                &.active {
+                    background-color: var(--bg-theme-color3);
+                }
+            }
+        }
+    }
+}
+
+.team-block-two {
+    margin-bottom: 40px;
+    .inner-box {
+        position: relative;
+        padding-top: 25px;
+        margin: 0 auto;
+        text-align: center;
+        &:hover{
+            .image-box{
+                .image{
+                    img{
+                        transform: scale(1.1);
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+        .image-box {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 25px;
+            border: 1px solid var(--theme-color-dark);
+            border-radius: 300px;
+            .icon-flower-10 {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .icon-flower-11 {
+                position: absolute;
+                bottom: 0;
+                right: -10px;
+            }
+            .image {
+                position: relative;
+                overflow: hidden;
+                border-radius: 300px;
+                img {
+                    border-radius: 300px;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: all 300ms ease;
+                }
+            }
+        }
+        .content-box {
+            position: relative;
+            text-align: center;
+            .name {
+                color: #282828;
+                font-family: var(--title-font);
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 32px;
+                margin-bottom: 10px;
+                a:hover{
+                    color: var(--theme-color7);
+                }
+            }
+            .designation {
+                display: block;
+                font-family: var(--text-font);
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            .social-icon-two {
+                justify-content: center;
+                a {
+                    font-size: 16px;
+                    width: 40px;
+                    height: 38px;
+                    line-height: 38px;
+                    border-color: #aaaaaa;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+	Team Section Three
+====================================================================
+
+***/
+
+
+.team-section-three {
+    position: relative;
+    padding: 120px 0 70px;
+    .team-block-outer {
+        position: relative;
+        margin-bottom: 120px;
+        .image-column {
+            margin-bottom: 50px;
+            .inner-column {
+                @include media-breakpoint-down(xl){
+                    text-align: center;
+                }
+                .image-box {
+                    position: relative;
+                    @include media-breakpoint-down(xl){
+                        max-width: 400px;
+                        margin: 0 auto;
+                    }
+                    .image {
+                        img {
+                            border-radius: 300px 300px 0 0;
+                        }
+                    }
+                    .icon-leaves-8 {
+                        position: absolute;
+                        top: 0;
+                        left: -100px;
+                        background-repeat: no-repeat;
+                        pointer-events: none;
+                        @include media-breakpoint-down(sm){
+                            display: none;
+                        }
+                    }
+                    .icon-leaves-9 {
+                        position: absolute;
+                        bottom: -20px;
+                        right: -40px;
+                        background-repeat: no-repeat;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+        .content-column {
+            margin-bottom: 50px;
+            .inner-column {
+                position: relative;
+                padding-left: 40px;
+                padding-top: 20px;
+                @include media-breakpoint-down(xl){
+                    padding: 0;
+                    text-align: center;
+                }
+                .team-info-box {
+                    position: relative;
+                    .name {
+                        color: var(--theme-color-dark);
+                        font-family: var(--script-font);
+                        font-weight: 400;
+                        line-height: 1em;
+                        letter-spacing: 8px;
+                        margin-bottom: 15px;
+                        @include media-breakpoint-down(lg){
+                            font-size: 48px;
+                        }
+                    }
+                    .designation {
+                        margin-bottom: 10px;
+                        color: var(--theme-color5);
+                        font-family: var(--title-font);
+                        font-weight: 700;
+                        font-size: 17px;
+                        line-height: 1em;
+                        letter-spacing: 0;
+                        text-transform: uppercase;
+                        @include media-breakpoint-down(xl){
+                            display: block;
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .text{
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                    .social-icon-two {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        margin-top: 0px;
+                        @include media-breakpoint-down(xl){
+                            position: relative;
+                            justify-content: center;
+                            margin-top: 20px;
+                        }
+                        a {
+                            width: 50px;
+                            height: 50px;
+                            line-height: 50px;
+                            font-size: 16px;
+                            box-shadow: none;
+                            &:before {
+                                background-color: var(--theme-color5);
+                            }
+                            &:hover {
+                                border-color: var(--bg-theme-color5);
+                            }
+                        }
+                    }
+                }
+                .carousel-outer {
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        &.style-two {
+            .image-column {
+                order: 3;
+                @include media-breakpoint-down(xl){
+                    order: 0;
+                }
+            }
+            .content-column {
+                .inner-column {
+                    padding-left: 0;
+                    padding-right: 40px;
+                    padding-top: 10px;
+                    @include media-breakpoint-down(xl){
+                        padding: 0;
+                    }
+                }
+            }
+            .groom-image {
+                .image-box {
+                    position: relative;
+                    .image {
+                        img {
+                            border-radius: 0 0 300px 300px;
+                            @include media-breakpoint-down(xl){
+                                border-radius: 300px 300px 0 0;
+                            }
+                        }
+                    }
+                    .icon-leaves-8 {
+                        position: absolute;
+                        top: auto;
+                        left: auto;
+                        bottom: 0;
+                        right: -80px;
+                        transform: scale(-1);
+                        background-repeat: no-repeat;
+                        @include media-breakpoint-down(xl){
+                            top: 0;
+                            left: -100px;
+                            right: auto;
+                            bottom: auto;
+                            transform: scale(1);
+                        }
+                        @include media-breakpoint-down(sm){
+                            display: none;
+                        }
+                    }
+                    .icon-leaves-9 {
+                        position: absolute;
+                        top: -20px;
+                        left: -40px;
+                        transform: scale(-1);
+                        background-repeat: no-repeat;
+                        @include media-breakpoint-down(xl){
+                            top: auto;
+                            left: auto;
+                            bottom: -20px;
+                            right: -40px;
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.team-block-three {
+    position: relative;
+    .inner-box {
+        position: relative;
+        text-align: center;
+        &:hover{
+            .team3-frame{
+                transform: rotate(25deg);
+            }
+            .image-box{
+                .image{
+                    img{
+                        transform: scale(1.1);
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+        .image-box {
+            position: relative;
+            padding-top: 20px;
+            .image {
+                display: inline-block;
+                width: 197px;
+                height: 197px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-bottom: 30px;
+                img {
+                    border-radius: 50%;
+                    transition: all 300ms ease;
+                }
+            }
+            .team3-frame {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                margin-left: -131px;
+                background-size: cover;
+                transition: all 600ms ease;
+                pointer-events: none;
+            }
+        }
+        .name {
+            font-family: var(--title-font);
+            font-weight: 400;
+            color: var(--theme-color-dark);
+            font-size: 26px;
+            line-height: 32px;
+            &:hover{
+                color: var(--theme-color5);
+            }
+        }
+        .designation {
+            color: #aaaaaa;
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+	Team Section Four
+====================================================================
+
+***/
+
+.team-section-four {
+    position: relative;
+    padding: 120px 0 80px;
+    .sec-title {
+        margin-bottom: 95px;
+        @include media-breakpoint-down(md){
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.team-block-four {
+    margin-bottom: 40px;
+    .inner-box {
+        position: relative;
+        text-align: center;
+        &:hover {
+            .image-box{
+                .icon-leaves-18,
+                .icon-leaves-17{
+                    animation: zoom-two 3s infinite linear;
+                }
+            }
+        }
+        .image-box {
+            position: relative;
+            max-width: 330px;
+            margin: 0 auto 25px;
+            .image {
+                img {
+                    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+                    transition: all 300ms ease;
+                }
+            }
+            .icon-leaves-17 {
+                position: absolute;
+                top: 30px;
+                left: 70px;
+                z-index: -1;
+                pointer-events: none;
+                @include media-breakpoint-down(lg){
+                }
+            }
+            .icon-leaves-18 {
+                position: absolute;
+                top: 0;
+                left: 20px;
+                pointer-events: none;
+                @include media-breakpoint-down(lg){
+                }
+            }
+            .icon-leaves-19 {
+                position: absolute;
+                top: 20px;
+                left: 0px;
+                z-index: -1;
+                pointer-events: none;
+                @include media-breakpoint-down(lg){
+                }
+            }
+            .icon-leaves-20 {
+                position: absolute;
+                top: 0;
+                left: -10px;
+                pointer-events: none;
+                @include media-breakpoint-down(xl){
+                    top: -20px;
+                    left: -40px;
+                }
+                @include media-breakpoint-down(lg){
+                }
+            }
+        }
+        .content-box {
+            position: relative;
+            text-align: center;
+            .name {
+                color: var(--theme-color-dark);
+                font-family: var(--title-font);
+                font-weight: 400;
+                margin-bottom: 0;
+                font-size: 26px;
+                line-height: 32px;
+            }
+            .designation {
+                color: #aaaaaa;
+                font-family: var(--text-font);
+                font-weight: 400;
+            }
+        }
+    }
+    &.style-two {
+        .inner-box{
+            &:hover{
+                .icon-leaves-20,
+                .icon-leaves-19{
+                    animation: zoom-two 3s infinite linear;
+                }
+            }
+        }
+        .image-box {
+            margin-top: -40px;
+            @include media-breakpoint-down(lg){
+                margin-top: 0;
+            }
+        }
+    }
+}

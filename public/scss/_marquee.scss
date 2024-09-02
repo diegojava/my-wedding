@@ -1,0 +1,79 @@
+
+/***
+
+====================================================================
+    Marquee Section
+====================================================================
+
+***/
+
+.marquee-section {
+    position: relative;
+    padding: 130px 0;
+    border: 1px solid #d0d0d0;
+    @include media-breakpoint-down(xl){
+        padding: 100px 0;
+    }
+    @include media-breakpoint-down(sm){
+        padding: 60px 0;
+    }
+    .icon-leaves-37 {
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #d67a4b;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.marquee {
+    position: relative;
+    --duration: 30s;
+    --gap: 0px;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    .marquee-group {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: var(--gap);
+        min-width: 100%;
+        animation: scroll var(--duration) linear infinite;
+    }
+    .text {
+        font-size: 70px;
+        line-height: 36px;
+        color: var(--theme-color-dark);
+        @include title-font;
+        text-transform: uppercase;
+        @include media-breakpoint-down(xl){
+            font-size: 60px;
+        }
+        @include media-breakpoint-down(sm){
+            font-size: 40px;
+        }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .marquee-group {
+            animation-play-state: play;
+        }
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-100% - var(--gap)));
+        }
+    }
+}

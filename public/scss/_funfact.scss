@@ -1,0 +1,82 @@
+
+/*** 
+
+====================================================================
+    Fun Fact Section
+====================================================================
+
+***/
+
+.fun-fact-section{
+    position: relative;
+    padding: 120px 0 50px;
+}
+
+.counter-block{
+    position: relative;
+    margin-bottom: 70px;
+    &:first-child {
+        .inner {
+            &:before {
+                display: none;
+            }
+        }
+    }
+    @include media-breakpoint-down(xl){
+        &:nth-child(odd){
+            .inner{
+                &::before{display: none;}
+            }
+        }
+    }
+    .inner {
+        position: relative;
+        transition: all 300ms ease;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 45px;
+            left: -15px;
+            width: 13px;
+            height: 80px;
+            background-image: url(../images/icons/divider-4.png);
+            @include media-breakpoint-down(md){
+                display: none;
+            }
+        }
+        &:hover{
+            .count-box{
+                color: var(--theme-color7);
+                transform: translateY(10px)
+            }
+        }
+    }
+    .content{
+        position: relative;
+        text-align: center;
+        .icon-flower-30 {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .count-box {
+        font-size: 80px;
+        line-height: 1em;
+        font-weight: 600;
+        @include title-font;
+        color: var(--theme-color8);
+        margin-bottom: 20px;
+        transition: all 300ms ease;
+    }
+
+    .counter-title {
+        font-size: var(--body-font-size);
+        line-height: 1.6em;
+        font-weight: 400;
+        color: var(--theme-color-dark);
+        @include text-font;
+        margin-bottom: 0;
+    }
+}

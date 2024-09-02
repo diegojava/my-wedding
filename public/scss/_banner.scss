@@ -1,0 +1,620 @@
+/*** 
+
+====================================================================
+    Banner Section
+====================================================================
+
+***/
+
+.banner-section {
+    position: relative;
+    padding: 220px 0 440px;
+    background-color: var(--bg-theme-color2);
+    @include media-breakpoint-down(sm){
+        padding: 200px 0;
+    }
+    .bg{
+        @include media-breakpoint-down(sm){
+            opacity: .2;
+        }
+    }
+    .content-box {
+        position: relative;
+        text-align: center;
+        .date {
+            position: relative;
+            color: var(--theme-color-light);
+            font-family: var(--text-font);
+            font-weight: 400;
+            line-height: 54.13px;
+            font-size: 20px;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            @include media-breakpoint-down(lg){
+                font-size: 16px;
+                line-height: 1.4em;
+            }
+            @include media-breakpoint-down(sm){
+                font-size: 14px;
+                letter-spacing: .8px;
+                margin-bottom: 25px;
+            }
+        }
+        .name {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: var(--theme-color-light);
+            font-family: var(--script-font);
+            font-weight: 400;
+            line-height: 44px;
+            font-size: 100px;
+            margin-bottom: 35px;
+            @include media-breakpoint-down(lg){
+                font-size: 72px;
+                margin-bottom: 15px;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 54px;
+            }
+            @include media-breakpoint-down(sm){
+                line-height: 1em;
+                flex-direction: column;
+                margin-bottom: 30px;
+            }
+            .icon-heart {
+                margin: 0 10px;
+                @include media-breakpoint-down(lg){
+                    max-width: 100px;
+                    background-size: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+        .text {
+            position: relative;
+            color: #cbcbcb;
+            line-height: 40px;
+            font-size: 24px;
+            @include media-breakpoint-down(lg){
+                font-size: 20px;
+                line-height: 1.8em;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 16px;
+            }
+            @include media-breakpoint-down(sm){
+                br{display: none;}
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Two
+====================================================================
+
+***/
+
+.banner-section-two {
+    position: relative;
+    background-color: #fafafa;
+    padding: 240px 0 70px;
+    background-image: url(../images/icons/overlay2.jpg);
+    @include media-breakpoint-down(xl){
+        padding-top: 200px;
+    }
+    .icon-flowers-1 {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        width: 238px;
+        height: 500px;
+        background-image: url(../images/banner/icon-flowers-1.png);
+        background-repeat: no-repeat;
+        @include media-breakpoint-down(xl){
+            opacity: .3;
+        }
+    }
+    .icon-flowers-2 {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 261px;
+        height: 612px;
+        background-image: url(../images/banner/icon-flowers-2.png);
+        background-repeat: no-repeat;
+        @include media-breakpoint-down(xl){
+            opacity: .3;
+        }
+    }
+    .content-column {
+        margin-bottom: 50px;
+        .inner-column {
+            position: relative;
+            text-align: center;
+            .sub-title {
+                position: relative;
+                color: #444444;
+                font-family: var(--text-font);
+                font-weight: 800;
+                font-size: 18px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+            .name {
+                position: relative;
+                color: var(--theme-color-dark);
+                font-family: var(--script-font);
+                font-weight: 400;
+                line-height: 1.4em;
+                font-size: 60px;
+                margin-bottom: 25px;
+                @include media-breakpoint-down(xl){
+                    font-size: 56px;
+                    line-height: 60px;
+                }
+                span {
+                    position: relative;
+                    color: var(--theme-color-dark);
+                    font-family: var(--title-font);
+                    font-weight: 400;
+                    line-height: 95px;
+                    font-size: 120px;
+                    @include media-breakpoint-down(xl){
+                        font-size: 90px;
+                    }
+                }
+            }
+            .date {
+                position: relative;
+                display: inline-block;
+                color: var(--theme-color-dark);
+                font-family: var(--title-font);
+                font-weight: 600;
+                line-height: 42px;
+                font-size: 32px;
+                margin-bottom: 30px;
+                padding: 10px 0;
+                letter-spacing: 10px;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+                @include media-breakpoint-down(xl){
+                    font-size: 26px;
+                }
+            }
+            .address {
+                position: relative;
+                color: var(--theme-color-dark);
+                font-family: var(--text-font);
+                font-weight: 500;
+                line-height: 1.2em;
+                font-size: 16px;
+                .icon {
+                    font-size: 18px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .image-column {
+        margin-bottom: 50px;
+        .inner-column {
+            position: relative;
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            @include media-breakpoint-down(xl){
+                margin-top: 0;
+            }
+            @include media-breakpoint-down(lg){
+                justify-content: flex-end;
+            }
+            @include media-breakpoint-down(md){
+                justify-content: center;
+            }
+            .image-box {
+                position: relative;
+                max-width: 294px;
+                width: 100%;
+                padding: 15px;
+                margin: 0 auto;
+                text-align: center;
+                &:hover{
+                    animation: pulse 3s infinite linear;
+                }
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0px;
+                    border: 1px solid var(--theme-color-dark);
+                    border-radius: 300px;
+                }
+            }
+            .image {
+                position: relative;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: -55px;
+                    width: 117px;
+                    height: 180px;
+                    background-image: url(../images/banner/icon-flowers-3.png);
+                    background-repeat: no-repeat;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: -55px;
+                    width: 111px;
+                    height: 156px;
+                    background-image: url(../images/banner/icon-flowers-4.png);
+                    background-repeat: no-repeat;
+                }
+                img {
+                    border-radius: 300px;
+                    min-height: 380px;
+                    object-fit: cover;
+                    transition: all 300ms ease;
+                }
+            }
+        }
+    }
+    .image-column.style-two {
+        .image {
+            position: relative;
+            &:before {
+                bottom: auto;
+                top: 0;
+                left: -55px;
+                transform: scaleY(-1);
+            }
+            &:after {
+                top: auto;
+                bottom: 0;
+                right: -55px;
+                transform: scaleY(-1);
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Three
+====================================================================
+
+***/
+
+.banner-section-three {
+    position: relative;
+    background-color: #1a2418;
+    .icon-bubbles-2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .icon-leaves-23 {
+        position: absolute;
+        bottom: 0;
+        left: -170px;
+        @include media-breakpoint-down(xxl){
+            opacity: .3;
+        }
+    }
+    .icon-leaves-24 {
+        position: absolute;
+        bottom: 0;
+        right: -270px;
+        @include media-breakpoint-down(xxl){
+            opacity: .3;
+        }
+    }
+    .content-column {
+        z-index: 2;
+        .inner-column {
+            position: relative;
+            padding: 220px 0 190px;
+            text-align: center;
+            .name {
+                position: relative;
+                color: var(--theme-color-light);
+                font-family: var(--script-font);
+                font-weight: 400;
+                line-height: 1.2em;
+                font-size: 90px;
+                margin-bottom: 30px;
+                letter-spacing: 10px;
+                @include media-breakpoint-down(xl){
+                    font-size: 70px;
+                }
+                @include media-breakpoint-down(sm){
+                    font-size: 50px;
+                }
+                .icon-heart-2 {
+                    display: inline-block;
+                    margin: 10px 0;
+                    animation: zoom-one 3s infinite linear;
+                    @include media-breakpoint-down(xl){
+                        margin: 20px 0;
+                    }
+                    @include media-breakpoint-down(sm){
+                        background-size: 100px;
+                        background-repeat: no-repeat;
+                        height: 60px;
+                        background-position: center;
+                        margin: 20px auto;
+                    }
+                }
+            }
+            .text {
+                position: relative;
+                color: var(--theme-color-light);
+                font-family: var(--title-font);
+                font-weight: 400;
+                line-height: 30px;
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            .date {
+                position: relative;
+                color: var(--theme-color-light);
+                font-family: var(--title-font);
+                font-weight: 500;
+                line-height: 1em;
+                font-size: 33px;
+                margin-bottom: 20px;
+            }
+            .theme-btn {
+                padding: 14px 72px;
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: unset;
+                font-family: var(--text-font);
+            }
+        }
+    }
+    .bg-image{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 2;
+        @include media-breakpoint-down(lg){
+            width: 100%;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            @include media-breakpoint-down(lg){
+                opacity: .2;
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Four
+====================================================================
+
+***/
+
+.banner-section-four {
+    position: relative;
+    padding: 150px 0 60px;
+    background-color: #1b2640;
+    overflow: hidden;
+    .banner-frame {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        padding: 200px 0 120px;
+    }
+    @include media-breakpoint-down(sm){
+        padding: 150px 0 100px;
+    }
+    .content-box {
+        position: relative;
+        min-height: 795px;
+        padding: 210px 0 50px;
+        text-align: center;
+        @include media-breakpoint-down(lg){
+            padding: 0;
+            min-height: auto;
+        }
+        .date {
+            position: relative;
+            display: block;
+            color: var(--theme-color-light);
+            font-family: var(--title-font);
+            font-weight: 400;
+            line-height: 1em;
+            font-size: 29px;
+            margin-bottom: 60px;
+            @include media-breakpoint-down(sm){
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+            strong {
+                display: block;
+                color: #eeab7c;
+                font-size: 48px;
+                line-height: 1em;
+                margin-top: 20px;
+            }
+        }
+        .name {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: var(--theme-color-light);
+            font-family: var(--script-font);
+            font-weight: 400;
+            line-height: 1em;
+            font-size: 79px;
+            margin-bottom: 60px;
+            @include media-breakpoint-down(lg){
+                font-size: 64px;
+            }
+            @include media-breakpoint-down(sm){
+                flex-direction: column;
+                margin-bottom: 30px;
+            }
+            span {
+                color: #57678c;
+                display: inline-block;
+                margin: 0 45px;
+                font-size: 143px;
+                font-family: var(--title-font);
+                font-weight: 400;
+                @include media-breakpoint-down(md){
+                    font-size: 92px;
+                }
+                @include media-breakpoint-down(sm){
+                    font-size: 72px;
+                    display: block;
+                    line-height: 1.2em;
+                }
+            }
+        }
+        .sub-title {
+            position: relative;
+            display: block;
+            color: var(--theme-color-light);
+            font-family: var(--title-font);
+            font-weight: 400;
+            line-height: 1em;
+            font-size: 26px;
+            margin-bottom: 15px;
+            @include media-breakpoint-down(sm){
+                font-size: 18px;
+            }
+        }
+        .address {
+            position: relative;
+            color: var(--theme-color-light);
+            font-family: var(--title-font);
+            font-weight: 400;
+            line-height: 1em;
+            font-size: 33px;
+            @include media-breakpoint-down(sm){
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Banner Section Five
+====================================================================
+
+***/
+
+.banner-section-five {
+    position: relative;
+    padding: 280px 0 65px;
+    background-color: var(--theme-color-light);
+    @include media-breakpoint-down(lg){
+        padding: 150px 0 0px;
+    }
+    .bg{
+        @include media-breakpoint-down(sm){
+            opacity: .2;
+        }
+    }
+    .icon-flowers-13 {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        @include media-breakpoint-down(xl){
+            opacity: .2;
+        }
+    }
+    .icon-flowers-14 {
+        position: absolute;
+        bottom: -120px;
+        right: 15px;
+        opacity: .2;
+    }
+    .content-box {
+        position: relative;
+        text-align: center;
+        .icon-divider-5{
+            margin-bottom: 45px;
+            @include media-breakpoint-down(xl){
+                margin-bottom: 30px;
+            }
+            @include media-breakpoint-down(lg){
+                margin-bottom:  0px;
+            }
+        }
+        .title {
+            margin-bottom: 20px;
+            @include media-breakpoint-down(xl){
+                font-size: 60px;
+            }
+            @include media-breakpoint-down(lg){
+                font-size: 50px;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 40px;
+                br {
+                    display: none;
+                }
+            }
+            @include media-breakpoint-down(sm){
+                font-size: 35px;
+            }
+        }
+        .text {
+            position: relative;
+            color: var(--theme-color-dark);
+            line-height: 40px;
+            font-size: 24px;
+            margin-bottom: 50px;
+            @include media-breakpoint-down(lg){
+                font-size: 20px;
+                line-height: 1.8em;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 16px;
+            }
+        }
+        .icon-flower-26 {
+            position: relative;
+            margin: 0 auto;
+        }
+        .icon-flower-27 {
+            position: absolute;
+            bottom: -80px;
+            right: 200px;
+        }
+    }
+}

@@ -94,3 +94,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/* Media query para mostrar el contenido solo en dispositivos móviles */
+@media only screen and (max-width: 768px) {
+  body {
+      display: block; /* Muestra el contenido en dispositivos con ancho máximo de 768px (puedes ajustar este valor según tus necesidades) */
+  }
+}

@@ -1,0 +1,81 @@
+$flaticon_wedding-font: "flaticon_wedding";
+
+@font-face {
+    font-family: $flaticon_wedding-font;
+    src: url("./flaticon_wedding.ttf?e1b24aecbacdae8d1d9297ffa4d0afc3") format("truetype"),
+url("./flaticon_wedding.woff?e1b24aecbacdae8d1d9297ffa4d0afc3") format("woff"),
+url("./flaticon_wedding.woff2?e1b24aecbacdae8d1d9297ffa4d0afc3") format("woff2"),
+url("./flaticon_wedding.eot?e1b24aecbacdae8d1d9297ffa4d0afc3#iefix") format("embedded-opentype"),
+url("./flaticon_wedding.svg?e1b24aecbacdae8d1d9297ffa4d0afc3#flaticon_wedding") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_wedding !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_wedding-map: (
+    "alarm": "\f101",
+    "romantic-dinner": "\f102",
+    "cheers": "\f103",
+    "romantic-dinner-1": "\f104",
+    "musical-notes": "\f105",
+    "wedding-ring": "\f106",
+    "wedding-arch": "\f107",
+    "book": "\f108",
+    "birthday-girl": "\f109",
+    "dress": "\f10a",
+    "arch": "\f10b",
+    "marriage": "\f10c",
+    "wedding-cost": "\f10d",
+    "checklist": "\f10e",
+);
+
+.flaticon-alarm:before {
+    content: map-get($flaticon_wedding-map, "alarm");
+}
+.flaticon-romantic-dinner:before {
+    content: map-get($flaticon_wedding-map, "romantic-dinner");
+}
+.flaticon-cheers:before {
+    content: map-get($flaticon_wedding-map, "cheers");
+}
+.flaticon-romantic-dinner-1:before {
+    content: map-get($flaticon_wedding-map, "romantic-dinner-1");
+}
+.flaticon-musical-notes:before {
+    content: map-get($flaticon_wedding-map, "musical-notes");
+}
+.flaticon-wedding-ring:before {
+    content: map-get($flaticon_wedding-map, "wedding-ring");
+}
+.flaticon-wedding-arch:before {
+    content: map-get($flaticon_wedding-map, "wedding-arch");
+}
+.flaticon-book:before {
+    content: map-get($flaticon_wedding-map, "book");
+}
+.flaticon-birthday-girl:before {
+    content: map-get($flaticon_wedding-map, "birthday-girl");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon_wedding-map, "dress");
+}
+.flaticon-arch:before {
+    content: map-get($flaticon_wedding-map, "arch");
+}
+.flaticon-marriage:before {
+    content: map-get($flaticon_wedding-map, "marriage");
+}
+.flaticon-wedding-cost:before {
+    content: map-get($flaticon_wedding-map, "wedding-cost");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon_wedding-map, "checklist");
+}

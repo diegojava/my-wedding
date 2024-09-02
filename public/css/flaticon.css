@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon_wedding";
+    src: url("../fonts/flaticon_wedding.ttf?e1b24aecbacdae8d1d9297ffa4d0afc3") format("truetype"),
+url("../fonts/flaticon_wedding.woff?e1b24aecbacdae8d1d9297ffa4d0afc3") format("woff"),
+url("../fonts/flaticon_wedding.woff2?e1b24aecbacdae8d1d9297ffa4d0afc3") format("woff2"),
+url("../fonts/flaticon_wedding.eot?e1b24aecbacdae8d1d9297ffa4d0afc3#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_wedding.svg?e1b24aecbacdae8d1d9297ffa4d0afc3#flaticon_wedding") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_wedding !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-alarm:before {
+    content: "\f101";
+}
+.flaticon-romantic-dinner:before {
+    content: "\f102";
+}
+.flaticon-cheers:before {
+    content: "\f103";
+}
+.flaticon-romantic-dinner-1:before {
+    content: "\f104";
+}
+.flaticon-musical-notes:before {
+    content: "\f105";
+}
+.flaticon-wedding-ring:before {
+    content: "\f106";
+}
+.flaticon-wedding-arch:before {
+    content: "\f107";
+}
+.flaticon-book:before {
+    content: "\f108";
+}
+.flaticon-birthday-girl:before {
+    content: "\f109";
+}
+.flaticon-dress:before {
+    content: "\f10a";
+}
+.flaticon-arch:before {
+    content: "\f10b";
+}
+.flaticon-marriage:before {
+    content: "\f10c";
+}
+.flaticon-wedding-cost:before {
+    content: "\f10d";
+}
+.flaticon-checklist:before {
+    content: "\f10e";
+}

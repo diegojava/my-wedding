@@ -1,0 +1,593 @@
+/*** 
+
+====================================================================
+    Services Section
+====================================================================
+
+***/
+
+.services-section {
+    position: relative;
+    padding: 120px 0 70px;
+    .sec-title {
+        margin-bottom: 115px;
+        .icon-divider {
+            position: relative;
+            margin: 0 auto;
+            display: inherit;
+            margin-bottom: 35px;
+        }
+        @include media-breakpoint-down(lg){
+            margin-bottom: 60px;
+        }
+    }
+}
+.services-block {
+    position: relative;
+    margin-bottom: 50px;
+    &:nth-child(2) {
+        margin-top: -60px;
+        @include media-breakpoint-down(lg){
+            margin-top: 0;
+        }
+    }
+    .inner-box {
+        position: relative;
+        padding: 50px 20px 60px;
+        max-width: 370px;
+        border: 3px solid var(--bg-theme-color1);
+        margin: 75px auto;
+        text-align: center;
+        transition: all 300ms ease;
+        z-index: 9;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            right: 15px;
+            bottom: 20px;
+            pointer-events: none;
+            background-color: var(--theme-color-gray);
+        }
+        &:after {
+            content: '';
+            position:absolute;
+            top: 20px;
+            left: 15px;
+            right: 15px;
+            bottom: 20px;
+            display: block;
+            opacity: 0;
+            background-color: var(--bg-theme-color2);
+            background-size: cover;
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: all 500ms ease;
+        }
+        &:hover {
+            &:after {
+                opacity:1;
+                transform:scaleY(1)
+            }
+            .image-box {
+                .icon {
+                    background-color: var(--bg-theme-color1);
+                    color: var(--theme-color-light);
+                }
+                .image{
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            .content-box {
+                color: var(--theme-color-light);
+                .title {
+                    color: var(--theme-color-light);
+                }
+                .date {
+                    color: var(--theme-color-light);
+                }
+                .time {
+                    color: var(--theme-color-light);
+                }
+                .phone {
+                    color: var(--theme-color-light);
+                }
+            }
+        }
+        .frame {
+            @include overlay;
+            &::after,
+            &:before {
+                content: '';
+                position: absolute;
+                top: -80px;
+                left: 0;
+                width: 100%;
+                height: 80px;
+                pointer-events: none;
+                background-image: url(../images/icons/service-frame.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &:after{
+                top: auto;
+                bottom: -80px;
+                transform: scaleY(-1);
+            }
+        }
+        .image-box {
+            position: relative;
+            margin-bottom: 35px;
+            z-index: 9;
+            .image {
+                position: relative;
+                height: 270px;
+                width: 270px;
+                border-radius: 50%;
+                margin: 0 auto;
+                overflow: hidden;
+                img {
+                    border-radius: 50%;
+                    transition: all 300ms ease;
+                }
+            }
+            .icon-shape {
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                margin-left: -142px;
+                animation: fa-spin 15s infinite linear;
+            }
+            .icon {
+                position: absolute;
+                bottom: 0;
+                left: 30px;
+                display: inline-block;
+                background-color: var(--theme-color-light);
+                border-radius: 50%;
+                font-size: 56px;
+                width: 100px;
+                height: 100px;
+                line-height: 120px;
+                text-align: center;
+                transition: all 300ms ease;
+            }
+        }
+        .content-box {
+            position: relative;
+            z-index: 9;
+        }
+        .title {
+            font-family: var(--title-font);
+            font-weight: 600;
+            font-size: 26px;
+            &:hover {color: var(--theme-color1);}
+        }
+        .date {
+            color: #242424;
+            font-family: var(--text-font);
+            font-weight: 400;
+            line-height: 30px;
+            transition: all 300ms ease;
+        }
+        .time {
+            color: #3d3d3d;
+            font-family: var(--text-font);
+            font-weight: 500;
+            line-height: 30px;
+            margin-bottom: 20px;
+            transition: all 300ms ease;
+        }
+        .icon-divider-3 {
+            background-image: url(../images/icons/divider-3.png);
+            display: inline-block;
+            width: 112px;
+            height: 16px;
+            margin-bottom: 20px;
+            background-repeat: no-repeat;
+        }
+        .address {
+            font-family: var(--text-font);
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: all 300ms ease;
+        }
+        .phone {
+            font-family: var(--text-font);
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Services Section Two
+====================================================================
+
+***/
+
+.services-section-two {
+    position: relative;
+    padding: 120px 0 90px;
+}
+.services-block-two {
+    position: relative;
+    margin-bottom: 30px;
+    .inner-box {
+        position: relative;
+        text-align: center;
+        &:hover {
+            .image {
+                img {
+                    transform: scaleX(-1);
+                }
+            }
+        }
+        .image {
+            img {
+                transition: all 300ms ease;
+            }
+        }
+        .sub-title {
+            display: inline-block;
+            font-size: 16px;
+            font-family: var(--text-font);
+            border-bottom: 1px solid #000;
+            line-height: 1em;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .title {
+            font-family: var(--title-font);
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 20px;
+            a:hover {
+                color: var(--theme-color7);
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Services Section Three
+====================================================================
+
+***/
+
+.services-section-three {
+    position: relative;
+    padding: 120px 0 70px;
+    margin-top: -75px;
+    .icon-flowers-9 {
+        position: absolute;
+        bottom: 60px;
+        left: 250px;
+        background-position: center;
+    }
+}
+
+.services-block-three {
+    margin-bottom: 30px;
+    .inner-box {
+        position: relative;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        &:hover{
+            .image-box {
+                .info-box{
+                    opacity: 1;
+                    visibility: visible;
+                    &:before{
+                        transform: scale(1)
+                    }
+                    .icon{
+                        top: 0;
+                        opacity: 1;
+                        transition-delay: 200ms;
+                    }
+                    .date{
+                        top: 0;
+                        opacity: 1;
+                        transition-delay: 400ms;
+                    }
+                    .text{
+                        top: 0;
+                        opacity: 1;
+                        transition-delay: 600ms;
+                    }
+                }
+                .btn-box {
+                    opacity: 1;
+                    transform: scale(1);
+                    transition-delay: 800ms;
+                }
+            }
+        }
+        .image-box {
+            position: relative;
+            .image {
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: -1px;
+                    left: -1px;
+                    right: -1px;
+                    bottom: -1px;
+                    border: 20px solid var(--theme-color-light);
+                    border-radius: 300px;
+                    pointer-events: none;
+                    @include media-breakpoint-down(sm){
+                        border: 10px solid var(--theme-color-light);
+                    }
+                }
+                img {
+                    border-radius: 300px;
+                }
+            }
+            .info-box{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: transparent;
+                height: 100%;
+                width: 100%;
+                z-index: 3;
+                opacity: 0;
+                padding: 55px 75px;
+                visibility: hidden;
+                transition: all 300ms ease;
+                @include media-breakpoint-down(xl){
+                    padding: 20px 35px;
+                }
+                @include media-breakpoint-down(sm){
+                    padding: 55px 60px;
+                }
+                &:before {
+                    position: absolute;
+                    content: '';
+                    top: 50px;
+                    left: 40px;
+                    right: 40px;
+                    bottom: 50px;
+                    opacity: .8;
+                    border-radius: 300px;
+                    background-color: var(--bg-theme-color5);
+                    transform: scale(.8);
+                    transition: all 300ms ease;
+                    @include media-breakpoint-down(xl){
+                        top: 20px;
+                        left: 20px;
+                        right: 20px;
+                        bottom: 20px;
+                    }
+                }
+                .icon {
+                    position: relative;
+                    color: var(--theme-color-light);
+                    font-size: 80px;
+                    margin-bottom: 25px;
+                    top: 20px;
+                    opacity: 0;
+                    transition: all 300ms ease;
+                    z-index: 9;
+                    @include media-breakpoint-down(sm){
+                        font-size: 62px;
+                    }
+                }
+                .date {
+                    position: relative;
+                    color: var(--theme-color-light);
+                    font-family: var(--title-font);
+                    font-weight: 500;
+                    line-height: 1em;
+                    font-size: 30px;
+                    margin-bottom: 35px;
+                    top: 20px;
+                    opacity: 0;
+                    transition: all 300ms ease;
+                    z-index: 9;
+                    @include media-breakpoint-down(sm){
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+                }
+                .text{
+                    position: relative;
+                    color: var(--theme-color-light);
+                    margin-bottom: 35px;
+                    top: 20px;
+                    opacity: 0;
+                    transition: all 300ms ease
+                }
+            }
+            .btn-box {
+                z-index: 9;
+                opacity: 0;
+                transform: scale(0);
+                transition: all 300ms ease;
+            }
+            .theme-btn{
+                background-color: var(--theme-color-light);
+                color: var(--theme-color-dark);
+                padding: 14px 56px;
+                @include media-breakpoint-down(sm){
+                    padding: 12px 40px 9px;
+                    line-height: 20px;
+                }
+                &:before {
+                    background-color: var(--bg-theme-color2);
+                }
+                &:hover {
+                    color: var(--theme-color-light);
+                }
+            }
+        }
+    }
+}
+
+/*** 
+
+====================================================================
+    Services Section Four
+====================================================================
+
+***/
+
+.services-section-four {
+    position: relative;
+    padding: 120px 0 80px;
+    @include media-breakpoint-down(lg){
+        padding-top: 0;
+    }
+    .icon-leaves-34 {
+        position: absolute;
+        top: 350px;
+        left: 70px;
+        @include for-xxl{
+            left: 0;
+        }
+        @include media-breakpoint-down(xxl){
+            top: 200px;
+        }
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    .icon-leaves-35 {
+        position: absolute;
+        bottom: 190px;
+        right: 175px;
+        @include for-xxl{
+            right: 0;
+        }
+        @include media-breakpoint-down(xxl){
+            bottom: 100px;
+        }
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    .sec-title {
+        margin-bottom: 50px;
+        .icon-leaves-36 {
+            margin: 30px auto 0;
+        }
+    }
+    .row{
+        margin: 0 -23px;
+        > div{padding: 0 23px;}
+    }
+}
+.service-image-block {
+    margin-bottom: 40px;
+    @include media-breakpoint-down(lg){
+        display: none;
+    }
+    .inner-box {
+        text-align: center;
+        padding-top: 125px;
+    }
+}
+
+.service-block-four {
+    position: relative;
+    margin-bottom: 40px;
+    &.pull-down{
+        top: 90px;
+        @include media-breakpoint-down(lg){
+            top: 0;
+        }
+    }
+    &.pull-up{
+        top: -70px;
+        @include media-breakpoint-down(lg){
+            top: 0;
+        }
+    }
+    .inner-box {
+        position: relative;
+        background-color: #f7f7f7;
+        padding: 100px 45px 35px;
+        outline: 1px solid #cdcdcd;
+        border: 10px solid var(--theme-color-light);
+        border-radius: 7px;
+        margin-top: 57px;
+        transition: all 300ms ease;
+        height: calc(100% - 57px);
+        @include media-breakpoint-down(xl){
+            padding: 100px 20px 30px;
+        }
+        @include media-breakpoint-down(sm){
+            padding: 100px 20px 30px;
+        }
+        &:hover {
+            border-color: var(--bg-theme-color8);
+            outline-color: var(--bg-theme-color8);
+            background-color: var(--theme-color-light);
+            box-shadow: 0 10px 30px rgba(0,0,0,.10);
+            .icon{
+                transform: scaleX(-1);
+            }
+        }
+        .icon {
+            position: absolute;
+            left: 45px;
+            top: -65px;
+            @include flex-center;
+            width: 139px;
+            height: 139px;
+            font-size: 80px;
+            color: var(--theme-color-light);
+            background-color: var(--bg-theme-color8);
+            border-radius: 50%;
+            transition: all 300ms ease;
+            @include media-breakpoint-down(sm){
+                height: 100px;
+                width: 100px;
+                left: 0;
+                right: 0;
+                top: -40px;
+                font-size: 48px;
+                margin: 0 auto;
+            }
+        }
+        .icon-leaves-33 {
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+        }
+        .content-box {
+            position: relative;
+            @include media-breakpoint-down(sm){
+                text-align: center;
+            }
+            .title {
+                font-size: 26px;
+                margin-bottom: 13px;
+                a:hover {
+                    color: var(--theme-color8);
+                }
+            }
+            .text {
+                @include media-breakpoint-down(xxl){
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

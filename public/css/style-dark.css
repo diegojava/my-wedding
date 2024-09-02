@@ -1,0 +1,459 @@
+:root {
+  --dark-color1: #e58193;
+  --dark-color2: #ED8C9D;
+  --dark-color3: #f599aa;
+  --border-color: #fba5b4;
+}
+
+.bg-dark-1,
+body,
+.sticky-header.fixed-header,
+.page-wrapper,
+.footer-bottom,
+.banner-section-two,
+.contact-list-two li i,
+.countdown-section-three .time-counter .time-countdown .counter-column,
+.story-section .owl-carousel .owl-dots .owl-dot.active,
+.news-block-two .inner-box .readmore:hover,
+.services-block-three .inner-box .image-box .info-box:before,
+.testimonial-section-three,
+.service-block-four .inner-box,
+.story-section-three,
+.news-block-five .inner-box,
+.footer-style-five .footer-lower .gallery-block-two .image-box .overlay:before {
+  background-color: var(--dark-color1) !important;
+}
+
+.service-block-four .inner-box:hover,
+.news-block-five .inner-box:hover {
+  border-color: var(--dark-color1) !important;
+}
+
+.header-style-two .outer-box .social-icon-two a,
+.btn-style-two,
+.subscribe-form-one .form-group select,
+.subscribe-form-one .form-group textarea,
+.subscribe-form-one .form-group input:not([type=submit]),
+.news-block-two .inner-box .readmore,
+.countdown-section-four .time-counter .time-countdown-two .counter-column,
+.default-navs .owl-next, .default-navs .owl-prev,
+.story-block-two .inner-box .icon,
+.news-section-three .theme-btn,
+.contact-form-four .theme-btn,
+.video-section .video-column .inner-column .play-btn .icon,
+.gallery-section-seven .view-all .icon,
+.gallery-section-eight .gallery-navs .testi-prev,
+.gallery-section-eight .gallery-navs .testi-next,
+.gallery-section-eight .gallery-navs .testi-prev:hover,
+.gallery-section-eight .gallery-navs .testi-next:hover,
+.gallery-section-eight .styled-pagination,
+.story-section-three .default-navs .owl-next,
+.story-section-three .default-navs .owl-prev,
+.story-block-three .inner-box .content-box .video-box .icon,
+.contact-list-four li i,
+.footer-style-five .widgets-section .links-widget .social-icon-two a,
+.testimonial-section .testimonial-navs .testi-prev,
+.testimonial-section .testimonial-navs .testi-next,
+.contact-section .video-column .inner-column .video-box .play-btn .icon,
+.header-style-three .header-lower .main-box .outer-box .social-icon-one a {
+  background-color: var(--dark-color2);
+  color: var(--theme-color-light);
+}
+
+.bg-dark-2,
+.header-top .inner-container,
+.header-top,
+.event-section,
+.services-block .inner-box:before,
+.team-section,
+.contact-form-one,
+.client-block .image,
+.gallery-section .outer-box,
+.banner-section,
+.footer-style-one,
+.services-section-two,
+.event-section-two,
+.gallery-section-three,
+.subscribe-section,
+.footer-style-two,
+.story-section,
+.clients-section-three,
+.contact-section-three:before,
+.contact-block .inner-box .icon:after,
+.gallery-section-five,
+.gallery-section-six,
+.footer-style-three,
+.banner-section-three,
+.banner-section-four,
+.video-section,
+.video-section .date-box-outer .event-date-box,
+.clients-section-four,
+.gallery-section-seven,
+.news-block-three .inner-box,
+.footer-style-four .bg,
+.banner-section-five,
+.header-style-five .header-lower .inner-container .bottom-right .social-icon-two a,
+.header-style-five .header-lower .inner-container .bottom-right .social-icon-two a:before,
+.event-section-three .image-column .inner-column:before,
+.services-section-four,
+.gallery-section-nine:before,
+.pricing-block .inner-box .content-box,
+.news-section-five {
+  background-color: var(--dark-color2) !important;
+}
+
+.bg-dark-3,
+.event-section .icon-circle,
+.custom-radio-box-two input ~ .checkmark,
+.event-block-two .inner-box .date-column .date-box,
+.event-block-two .inner-box .date-column .date-box:before,
+.team-section-two .owl-carousel .owl-dots .owl-dot.active,
+.footer-style-two .widgets-section .icons-widget .social-icon-one a:before,
+.footer-style-two .widgets-section .widget-title:before,
+.header-style-two .toggle-hidden-bar .dot,
+.couple-section .outer-box:before,
+.team-section .outer-box:before,
+.story-section .icon-heart-4::before,
+.default-dots .owl-dots .owl-dot.active,
+.contact-section-three .form-column .inner-column,
+.contact-block .inner-box,
+.team-section-three .team-block-outer .content-column .inner-column .team-info-box .social-icon-two a:before,
+.footer-style-three .widgets-section .widget-title:before,
+.contact-list-three li i,
+.newsletter-form-two .form-group .theme-btn,
+.footer-style-three .footer-bottom .outer-container .icons-box .social-icon-one a:before,
+.news-block-two .inner-box .date:before,
+.default-navs .owl-next:hover,
+.default-navs .owl-prev:hover,
+.story-block-two .inner-box:hover .icon,
+.client-block-four .inner-box,
+.news-block-three .inner-box .content-box .author-box .info-box .name:before,
+.news-block-three .inner-box .category,
+.news-block-four .inner-box .category,
+.news-block-four .inner-box .content-box .author-box .info-box .name:before,
+.news-section-three .theme-btn:before,
+.contact-form-four::before,
+.contact-form-four .form-group .custom-radio-box input ~ .checkmark,
+.contact-form-four .theme-btn:before,
+.footer-style-four .widgets-section .widget-title:before,
+.footer-style-four .widgets-section .icons-box .social-icon-one a:before,
+.video-section .video-column .inner-column .play-btn .icon:hover,
+.story-section-two .default-navs .owl-nav:before,
+.gallery-section-seven .view-all:hover .icon,
+.header-style-five .header-lower .inner-container:before,
+.gallery-section-eight .styled-pagination .swiper-pagination-progressbar-fill,
+.service-block-four .inner-box .icon,
+.footer-style-five .widgets-section .widget-title:before,
+.footer-style-five .widgets-section .links-widget .social-icon-two a:before,
+.testimonial-section .styled-pagination,
+.story-block-three .inner-box .content-box .video-box .icon:hover {
+  background-color: var(--dark-color3) !important;
+}
+
+.btn-style-three,
+.work-tabs .tab-buttons .tab-btn {
+  background-color: #000;
+}
+
+.process-block .inner-box::before,
+.header-style-two .outer-box .social-icon-two a,
+.contact-form-three .select2-container--default .select2-selection--single,
+.contact-form-three textarea, .contact-form-three select {
+  border-color: var(--dark-color1);
+}
+
+.banner-section-two .image-column .inner-column .image-box:before,
+.countdown-section-two .time-counter .time-countdown,
+.btn-style-two,
+.event-block-two .inner-box .content-column .content-box .time p,
+.event-block-two .inner-box .date-column .date-box,
+.event-block-two .inner-box .image-column .image-box,
+.contact-form-two,
+.contact-form-two textarea,
+.contact-form-two .select2-container--default .select2-selection--single,
+.contact-form-two input:not([type=submit]),
+.contact-form-two textarea, .contact-form-two select,
+.team-block-two .inner-box .content-box .social-icon-two a,
+.team-block-two .inner-box .image-box,
+.subscribe-form-one .form-group select,
+.subscribe-form-one .form-group textarea,
+.subscribe-form-one .form-group input:not([type=submit]),
+.footer-style-two .widgets-section,
+.footer-style-two .widgets-section .icons-widget .social-icon-one a:hover,
+.couple-image-block .image-box .image:before,
+.services-block-two .inner-box .sub-title,
+.banner-section-two .content-column .inner-column .date,
+.countdown-section-three .time-counter .time-countdown .counter-column,
+.contact-form-three input:not([type=submit]),
+.contact-form-three textarea,
+.countdown-section-three .time-counter,
+.news-block-two .inner-box .readmore,
+.news-block-two .inner-box .readmore:hover,
+.team-section-three .team-block-outer .content-column .inner-column .team-info-box .social-icon-two a:hover,
+.footer-style-three .widgets-section,
+.footer-style-three .footer-bottom .outer-container .icons-box .social-icon-one a:hover,
+.couple-block-three .inner-box .content-box .designation,
+.default-navs .owl-next,
+.default-navs .owl-prev,
+.default-navs .owl-next:hover,
+.default-navs .owl-prev:hover,
+.story-block-two .inner-box .icon:after,
+.client-block-four .inner-box,
+.news-block-three .inner-box .category,
+.news-block-four .inner-box .category,
+.footer-style-four .widgets-section .icons-box .social-icon-one a:hover,
+.story-section-two .default-navs .owl-next:hover,
+.story-section-two .default-navs .owl-prev:hover,
+.video-section .video-column .inner-column .play-btn:before,
+.gallery-section-seven .view-all .icon,
+.gallery-section-seven .view-all:hover .icon,
+.social-icon-two li a,
+.gallery-section-eight .gallery-navs .testi-prev,
+.gallery-section-eight .gallery-navs .testi-next,
+.gallery-section-eight .gallery-navs .testi-prev:hover,
+.gallery-section-eight .gallery-navs .testi-next:hover,
+.service-block-four .inner-box,
+.marquee-section,
+.story-section-three .default-navs .owl-next,
+.story-section-three .default-navs .owl-prev,
+.story-section-three .default-navs .owl-next:hover,
+.story-section-three .default-navs .owl-prev:hover,
+.pricing-block .inner-box .content-box,
+.news-block-five .inner-box,
+.footer-style-five .widgets-section .links-widget .social-icon-two a:hover,
+.testimonial-section .testimonial-navs .testi-prev,
+.testimonial-section .testimonial-navs .testi-next,
+.contact-section .video-column .inner-column .video-box .play-btn:before,
+.contact-section .video-column .inner-column .video-box .play-btn .icon,
+.social-icon-one li a,
+.header-style-four .main-box .nav-outer .outer-box .social-icon-two a {
+  border-color: var(--dark-color3);
+}
+
+.service-block-four .inner-box,
+.pricing-block .inner-box .content-box,
+.news-block-five .inner-box {
+  outline: var(--dark-color3);
+}
+
+.couple-block .content-box .designation,
+.couple-block-two .content-box .designation,
+.sec-title.style-two .sub-title,
+.event-block-two .inner-box .content-column .content-box .time p,
+.event-block-two .inner-box .date-column .date-box .date,
+.contact-list.light li a:hover,
+.event-block-two .inner-box .content-column .content-box .time .icon,
+.team-block-two .inner-box .content-box .designation,
+.news-block .inner-box .content-box .date,
+.banner-section-two .content-column .inner-column .date,
+.event-info-block .inner-box .content-box .event-time,
+.banner-section-two .content-column .inner-column .sub-title,
+.sec-title .sub-title,
+.custom-radio-box-two,
+.testimonial-block .inner-box .content-box .designation,
+.team-block-three .inner-box .designation,
+.team-section-three .team-block-outer .content-column .inner-column .team-info-box .designation,
+.services-block .inner-box .phone,
+.testimonial-block-two .inner-box .content-box .name,
+.sec-title.style-three .sub-title,
+.story-block .inner-box .date,
+.news-block-two .inner-box .date,
+.news-block-two .inner-box .title a:hover,
+.banner-section-four .content-box .date strong,
+.couple-block-three .inner-box .content-box .designation,
+.story-section-two .sec-title .sub-title,
+.story-block-two .inner-box .sub-title,
+.sec-title.style-four .sub-title,
+.team-block-four .inner-box .content-box .designation,
+.testimonial-block-three .inner-box .content-box .designation,
+.news-block-three .inner-box .content-box .author-box .info-box .date,
+.news-block-three .inner-box .content-box .title a:hover,
+.news-block-four .inner-box .content-box .author-box .info-box .date,
+.news-block-four .inner-box .content-box .title a:hover,
+.testimonial-section-three .default-navs-two .owl-next,
+.testimonial-section-three .default-navs-two .owl-prev,
+.gallery-section-seven .view-all,
+.header-style-five .header-lower .inner-container .list-style-one li a:hover,
+.sec-title.style-five .sub-title,
+.info-block .title,
+.story-block-three .inner-box .content-box .date,
+.pricing-block .inner-box .content-box .features-list li i,
+.news-block-five .inner-box .content-box .date,
+.counter-block .inner:hover .count-box {
+  color: var(--theme-color1);
+}
+
+.custom-radio-box input ~ .checkmark {
+  background-color: var(--theme-color1);
+}
+
+.subscribe-form-one .form-group input:not([type=submit])::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.subscribe-form-one .form-group input:not([type=submit])::-moz-placeholder {
+  color: #fff;
+}
+
+.subscribe-form-one .form-group input:not([type=submit]):-ms-input-placeholder {
+  color: #fff;
+}
+
+.subscribe-form-one .form-group input:not([type=submit])::-ms-input-placeholder {
+  color: #fff;
+}
+
+.main-menu .navigation > li > a,
+.main-menu .navigation > li.current > a,
+strong,
+.title a,
+.sec-title h2,
+p,
+.text,
+.social-icon-two li a,
+.services-block .inner-box .address,
+.team-block .inner-box .content-box .name,
+.footer-style-one .widgets-section .newsletter-widget .text,
+.banner-section-two .content-column .inner-column .name,
+.banner-section-two .content-column .inner-column .name span,
+.services-block-two .inner-box .sub-title,
+.couple-block-two .content-box .name,
+.countdown-section-two .time-counter .time-countdown .counter-column .count,
+.event-block-two .inner-box .date-column .date-box .date span,
+.contact-form-two .title,
+.contact-section-two .image-column .inner-column .content-box .title,
+.team-block-two .inner-box .content-box .name,
+.news-block .inner-box .content-box .date span,
+.subscribe-form-one .form-group input:not([type=submit])::placeholder,
+.banner-section-two .content-column .inner-column .address,
+.countdown-section .time-counter .time-countdown .counter-column .count,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li > a,
+.countdown-section .time-counter .time-countdown .counter-column sub,
+.countdown-section-two .time-counter .time-countdown .counter-column sub,
+.event-block-two .inner-box .content-column .content-box .text,
+.custom-radio-box,
+.event-block .inner-box .text,
+.testimonial-block .inner-box .content-box .name,
+.services-block .inner-box .time,
+.services-block .inner-box .date,
+.testimonial-block-two .inner-box .content-box .text,
+.testimonial-block-two .inner-box .content-box .designation,
+.countdown-section-three .time-counter .time-countdown .counter-column .count,
+.countdown-section-three .time-counter .time-countdown .counter-column sub,
+.story-block .inner-box .title,
+.couple-block-three .inner-box .content-box .name,
+.countdown-section-four .content-box .inner-box .date,
+.countdown-section-four .content-box .inner-box .address,
+.countdown-section-four .time-counter .time-countdown-two .counter-column .count,
+.countdown-section-four .time-counter .time-countdown-two .counter-column sub,
+.story-block-two .inner-box .designation,
+.team-block-four .inner-box .content-box .name,
+.testimonial-block-three .inner-box .content-box .text,
+.testimonial-block-three .inner-box .content-box .name,
+.news-block-three .inner-box .content-box .author-box .info-box .name,
+.news-block-three .inner-box .category,
+.news-block-four .inner-box .category,
+.news-block-four .inner-box .content-box .author-box .info-box .name,
+.testimonial-section-three .default-navs-two .owl-next:hover,
+.testimonial-section-three .default-navs-two .owl-prev:hover,
+.banner-section-four .content-box .name span,
+.header-style-five .header-lower .inner-container .list-style-one li,
+.header-style-five .header-lower .inner-container .list-style-one li i,
+.header-style-five .header-lower .inner-container .list-style-one li a,
+.info-block .text,
+.marquee .text,
+.story-block-three .inner-box .content-box .name,
+.story-block-three .inner-box .content-box .video-box .title,
+.counter-block .count-box,
+.counter-block .counter-title,
+.news-block-five .inner-box .image-box .name,
+.contact-list-four li,
+.contact-list-four li a {
+  color: #fff;
+}
+
+.text-lights {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-dark-text-light,
+.services-block .inner-box .image-box .icon {
+  background-color: var(--dark-color1);
+  color: #ffffff;
+}
+
+/*	Border Color */
+.border-color,
+.client-block .image,
+.footer-style-one .widgets-section {
+  border-color: var(--border-color);
+}
+
+.event-section .float-text,
+.pricing-block .inner-box .icon-flower-29,
+.footer-style-five .float-text {
+  opacity: 0.2;
+}
+
+.header-style-two,
+.footer-style-five .footer-lower {
+  background-color: unset;
+}
+
+.counter-block .inner,
+.banner-section-two,
+.bg-pattern-7,
+.bg-pattern-9 {
+  background-image: unset;
+}
+
+.couple-frame {
+  background-image: url(../images/icons/couple-frame-dark.png);
+}
+
+.team-frame {
+  background-image: url(../images/icons/team-frame-dark.png);
+}
+
+.couple-section .outer-box:after,
+.team-section .outer-box:after {
+  background-image: url(../images/icons/divider-2-dark.png);
+}
+
+.icon-green-heart {
+  background-image: url(../images/icons/icon-heart-3-dark.png);
+}
+
+.icon-heart-4 {
+  background-image: url(../images/icons/icon-heart-4-dark.png);
+}
+
+.icon-heart-5 {
+  background-image: url(../images/icons/icon-heart-5-dark.png);
+}
+
+.client-block-three a img,
+.icon-quote,
+.testimonial-section-three .default-navs-two .owl-prev:before,
+.testimonial-section-three .default-navs-two .owl-next:before,
+.icon-flower-26,
+.icon-divider-5,
+.icon-leaves-36,
+.icon-leaves-37,
+.pricing-block .inner-box .icon-flower-29,
+.counter-block .inner:before,
+.banner-section-two .image-column .inner-column .image:before,
+.banner-section-two .image-column .inner-column .image:after,
+.icon-flower-30,
+.icon-flower-3,
+.icon-flower-4,
+.icon-flower-6,
+.icon-flower-7,
+.icon-flower-8,
+.icon-flower-9,
+.icon-flower-10,
+.icon-flower-11 {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}

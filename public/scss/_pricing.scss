@@ -1,0 +1,135 @@
+/*** 
+
+====================================================================
+    Pricing Section
+====================================================================
+
+***/
+
+.pricing-section{
+    position: relative;
+    padding: 120px 0 90px;
+    .icon-leaves-36 {
+        margin: 20px auto 0;
+    }
+}
+
+.pricing-block{
+    position: relative;
+    margin-bottom: 30px;
+    .inner-box{
+        position: relative;
+        padding-left: 100px;
+        @include media-breakpoint-down(xl){
+            padding-left: 0;
+            background-color: #252c43;
+            outline: 1px solid #cdcdcd;
+            border: 9px solid var(--theme-color-light);
+            padding: 20px 20px 50px;
+        }
+        &:hover{
+            .image-box{
+                .image{
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            .content-box{
+                box-shadow: 0 10px 30px rgba(0,0,0,.10);
+            }
+        }
+        .icon-flower-29 {
+            position: absolute;
+            bottom: 10px;
+            right: 25px;
+            z-index: 1;
+        }
+
+        .image-box {
+            .image {
+                position: absolute;
+                top: 45px;
+                left: 0;
+                z-index: 3;
+                overflow: hidden;
+                @include media-breakpoint-down(xl){
+                    position: relative;
+                    top: 0;
+                }
+                img {
+                    width: 100%;
+                    transition: all 300ms ease;
+                }
+            }
+        }
+        
+        .content-box{
+            position: relative;
+            background-color: #252c43;
+            padding: 60px 40px 55px 210px;
+            outline: 1px solid #cdcdcd;
+            border: 9px solid var(--theme-color-light);
+            transition: all 300ms ease;
+            @include media-breakpoint-down(xxl){
+                padding-left: 190px;
+                padding-right: 20px;
+            }
+            @include media-breakpoint-down(xl){
+                padding: 0;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                padding-top: 20px;
+            }
+            .title {
+                color: var(--theme-color-light);
+            }
+            .features-list{
+                position: relative;
+                margin-bottom: 30px;
+                z-index: 2;
+                li{
+                    position: relative;
+                    padding-left: 25px;
+                    font-size: 16px;
+                    color: var(--theme-color-light);
+                    margin-bottom: 10px;
+                    @include media-breakpoint-down(sm){
+                        font-size: 14px;
+                    }
+                    i{
+                        position: absolute;
+                        left: 0;
+                        top: 5px;
+                        font-size: 18px;
+                        text-align: center;
+                        width: 14px;
+                        height: 16px;
+                        line-height: 16px;
+                        color: var(--theme-color8);
+                    }
+                }
+            }
+            .price {
+                color: var(--theme-color-light);
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                @include text-font;
+                z-index: 2;
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            .theme-btn {
+                padding: 14px 34px;
+                z-index: 2;
+                @include media-breakpoint-down(xl){
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

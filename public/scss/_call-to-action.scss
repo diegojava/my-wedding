@@ -1,0 +1,66 @@
+/*** 
+
+====================================================================
+	Call To Action
+====================================================================
+
+***/
+
+.call-to-action {
+    position: relative;
+    max-height: 768px;
+    .bg{
+        background-attachment: fixed;
+        &:before {
+            content: '';
+            @include overlay;
+            background-color: var(--theme-color-dark);
+            opacity: 0.4;
+        }
+    }
+    .icon-flowers {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-image: url(../images/icons/cta-flowers.png);
+        display: inline-block;
+        width: 432px;
+        height: 604px;
+        @include media-breakpoint-down(xxl){
+            display: none;
+        }
+    }
+    .outer-box {
+        position: relative;
+        padding: 170px 0 280px;
+        margin: 0 auto;
+        text-align: center;
+        @include media-breakpoint-down(md){
+            padding: 100px 0 200px;
+        }
+        .title {
+            color: var(--theme-color-light);
+            font-size: 60px;
+            font-family: var(--title-font);
+            font-weight: 600;
+            text-transform: capitalize;
+            @include media-breakpoint-down(sm){
+                font-size: 40px;
+            }
+            br {
+                @include media-breakpoint-down(md){
+                    display: none;
+                }
+            }
+        }
+        .text {
+            color: var(--theme-color-light);
+        }
+        .icon {
+            color: var(--theme-color-light);
+            font-size: 81px;
+            display: block;
+            margin-bottom: 40px;
+        }
+    }
+}
