@@ -1,0 +1,29 @@
+/*** 
+
+====================================================================
+    Countdown section
+====================================================================
+
+***/
+.countdown-section .content-column .inner-column .time-counter .time-countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.countdown-section .content-column .inner-column .time-counter .time-countdown .counter-column {
+  font-size: 16px;
+  position: relative;
+  padding: 0 39px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.countdown-section .content-column .inner-column .time-counter .time-countdown .counter-column .count {
+  font-size: 63px;
+  font-weight: 800;
+  color: #ffe000;
+  display: block;
+  text-align: center;
+  margin-bottom: 12px;
+}
