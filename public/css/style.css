@@ -4756,7 +4756,7 @@ Section Title
 .banner-section-two {
   position: relative;
   background-color: #fafafa;
-  padding: 240px 0 70px;
+  padding: 10vh 0 15vh;
   background-image: url(../images/icons/overlay2.jpg);
 }
 @media (max-width: 1199.98px) {
