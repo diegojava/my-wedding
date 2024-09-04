@@ -140,7 +140,13 @@ License: copyright commercial
 }
 
 .joss-diego {
+  color: #463933 !important;
+  font-weight: bold !important;
   margin-top: 5vh;
+}
+.and{
+  color: #463933 !important;
+  font-weight: bold !important;
 }
 
 .script-font-family {
